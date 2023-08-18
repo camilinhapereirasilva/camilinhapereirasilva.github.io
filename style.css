@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./fotos/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.conteiner-body {
+    display: flex;
+}
+
+.text {
+    margin-top: 9rem;
+    align-content: center;
+    width: 28rem;
+}
+
+.descricao-p {
+    font-size: 0.95rem;
+    text-align: center;
+    font-family: 'Irish Grover', cursive;
+    color: rgb(55, 55, 55);
+}
+
+.agendamento-p {
+    font-size: .9rem;
+    text-align: left;
+    font-family: 'Alata', sans-serif;
+    color: black;
+}
+
+.agenda {
+    margin-top: 2rem;
+    padding-left: 8.5rem;
+    width: 50rem;
+}
+
+.img {
+    display: flex;
+}
+
+.logo-img {
+    vertical-align: top;
+    height: 12rem;
+    margin-left: 2.5rem;
+}
+
+.img-fotos {
+    width: 45rem;
+    text-align: right;
+}
+
+.fotos {
+    padding-top: 2rem;
+}
+
+.zap-img,
+.local-img {
+    height: 1.9rem;
+}
+.conteiner {
+    display: flex;
+    background-color: rgb(220, 166, 178);
+    justify-content: space-around;
+    align-items: center;
+    height: 4.5rem;
+}
+
+.nome,
+.galeria {
+    color: black;
+    font-family: 'Irish Grover', cursive;
+    text-decoration: underline;
+    font-size: 2.2rem;
+}
+
+.local {
+    width: 15rem;
+    display: flex;
+    text-align: center;
+}
+
+.alinhar {
+    vertical-align: middle;
+    display: flex;
+}
+
+.tele {
+    padding-top: 0.4rem;
+    padding-left: 0.3rem;
+}
+.fotos-galeria{
+    text-align: center;
+}
